@@ -27,8 +27,9 @@ const letterPositions = function(sentence) {
       results[sentence[i]] = [i];
     }
   }
+  console.log(results);
   return results;
 };
 
-console.log(assertArraysEqual(letterPositions("hello").e, [1]));
+console.log(assertArraysEqual(letterPositions("hello").l, [2, 3]));
 console.log(assertArraysEqual(letterPositions("lighthouse").e, [9]));
