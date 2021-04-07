@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@happacode/lotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "Lotide a lodash-lite clone for student learning and execises",
+  "main": "README.md",
   "directories": {
     "test": "test"
   },
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Happacode/lotide.git"
   },
-  "author": "",
+  "author": "@HarpS",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Happacode/lotide/issues"
