@@ -33,8 +33,10 @@ const without = function(source, itemsToRemove) {
   return subset;
 };
 
-const words = ["hello", "world", "lighthouse"];
-console.log(without(words, ["lighthouse"])); // no need to capture return value for this test case
-// Make sure the original array was not altered by the without function
-console.log(assertArraysEqual(words, ["hello", "world", "lighthouse"]));
-console.log(assertArraysEqual(words, [1, 2, 3])); // => should subset
+// const words = ["hello", "world", "lighthouse"];
+// console.log(without(words, ["lighthouse"])); // no need to capture return value for this test case
+// // Make sure the original array was not altered by the without function
+// console.log(assertArraysEqual(words, ["hello", "world", "lighthouse"]));
+// console.log(assertArraysEqual(words, [1, 2, 3])); // => should subset
+
+module.exports = without;

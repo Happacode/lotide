@@ -36,8 +36,10 @@ const map = function(array, callback) {
 };
 const results1 = map(words, word => word[0]);
 
-assertArraysEqual(["g", "c", "t", "m", "t"], results1); // => should PASS
-assertArraysEqual(["ground", "control", "to", "major", "tom"], words); // => should PASS
-assertArraysEqual([1, 2, 3], [1, 2, 3], results1); // => should PASS
-assertArraysEqual([1, 2, 3], [1, 2, 3], results1); // => true
-assertArraysEqual([1, 2, 3, 4], [3, 2, 1, 0], results1); // => false
+// assertArraysEqual(["g", "c", "t", "m", "t"], results1); // => should PASS
+// assertArraysEqual(["ground", "control", "to", "major", "tom"], words); // => should PASS
+// assertArraysEqual([1, 2, 3], [1, 2, 3], results1); // => should PASS
+// assertArraysEqual([1, 2, 3], [1, 2, 3], results1); // => true
+// assertArraysEqual([1, 2, 3, 4], [3, 2, 1, 0], results1); // => false
+
+module.exports = map;
